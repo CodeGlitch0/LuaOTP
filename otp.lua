@@ -33,7 +33,7 @@ otp.new = function(secret, digits, digest, ...)
 
         end
 
-		if (#secret > hm.block_size) then
+        if (#secret > hm.block_size) then
 			th = sha1(otp.byte_secret(this))
 			this._secretHash = sha1:digest()
 		else
