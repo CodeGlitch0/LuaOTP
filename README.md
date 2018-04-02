@@ -20,7 +20,7 @@ Here you can obtain them:
 
 >[basexx](https://github.com/aiq/basexx/blob/master/lib/basexx.lua)
 
->[sha1](https://github.com/kikito/sha1.lua)
+>[lua-hashings](https://github.com/CodeGlitch0/lua-hashings) (modified version of [lua-hashings](https://github.com/user-none/lua-hashings) to support coroutines.)
 
 
 ## Configuration
@@ -45,7 +45,7 @@ bit32 is licensed by Lua under MIT, see the full license [here](https://www.lua.
 
 basexx is licensed by aiq under MIT, see the full license [here](https://github.com/aiq/basexx/blob/master/LICENSE)
 
-sha1 is licensed by 'Enrique García Cota + Eike Decker + Jeffrey Friedl' under a custom license, see the full license [here](https://github.com/kikito/sha1.lua/blob/master/MIT-LICENSE.txt)
+lua-hashings is licensed by 'John Schember' under MIT, see the full license [here](https://github.com/user-none/lua-hashings/blob/master/LICENSE)
 
 
 ## Usage
@@ -58,5 +58,4 @@ To use this library, pick either TOTP or HOTP then use the provided files - givi
 * Add comments - there are lacking comments, should match up to COTP's style
 * Remove the dependancy on basexx - I have an implementation found in COTP and JOTP that can be ported.
 * bit32 isn't actually an external dependancy, but depending on the version you prefer, it is
-* sha1 make sure we aren't infringing anything with this
 
